@@ -5,4 +5,4 @@
 
 
 
-![veja meu Certificado]([img]https://i.ibb.co/fDPdCZ9/Cysource-Linux-Cl-udio-Junior.jpg[/img]([https://i.ibb.co/fDPdCZ9/Cysource-Linux-Cl-udio-Junior.jpg)[/img])(https://ibb.co/VwPYvbx)](https://ibb.co/VwPYvbx)
+![The San Juan Mountains are beautiful!](https://i.ibb.co/fDPdCZ9/Cysource-Linux-Cl-udio-Junior.jpg "San Juan Mountains")
