@@ -6,7 +6,7 @@ background-image: linear-gradient(
       rgb(29, 40, 42)
 
     );
-    height: 100vh;
+    height: 100%;
     color: white;
     font-family:sans-serif;
     display: flex;
@@ -14,6 +14,15 @@ background-image: linear-gradient(
     align-items: center;
 }
 
+button {
+  background-color: inherit; 
+  /* Herd as características do elemento pai */
+  color: inherit;
+  border: none; /* Retira as bordas do elemento */
+
+
+
+}
 #below-cover {
 display:flex;
 flex-direction:row;
@@ -84,5 +93,5 @@ margin: 3em 0 1em 0;
   height: inherit;
   width:50%;
   border-radius: inherit;
-
+  /* Herd as características do elemento pai */
 }
