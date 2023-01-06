@@ -15,7 +15,7 @@ function playSong(){
  }
 
 play.addEventListener("click", playSong) 
-// adiciona evento de tocar a música ao Botão
+//Adiciona evento de tocar a música ao Botão
 
 
 
