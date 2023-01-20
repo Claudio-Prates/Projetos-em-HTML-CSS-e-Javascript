@@ -9,7 +9,7 @@ const previous = document.getElementById("previous");
 
 
 
-// Documento de Identidade para as músicas (conjunto de informações sobre o album)
+// Documento de Identidade para as músicas (conjunto de informações sobre o album) Array
 const SummerBreeze = {
     songname : '10._Summer_Breeze_Cuti' ,
     artista : 'Cuti' ,
@@ -24,14 +24,20 @@ const GreenGolAnakilie = {
 
 const MIX020 = {
     songname : 'MIX020' ,
-    artista : 'Three F' ,
+    artista : ' DJ Three F' ,
     file : 'MIX020'
 };
 
+
+const Strike = {
+    songname : 'Teus_Sinais' ,
+    artista : ' Strike' ,
+    file : 'Teus_Sinais'
+};
 let isplaying = false; // variavel (let) a principio terá seu valor falso, 
 //está tocando( sim ou não)
 
-const playlist = [SummerBreeze, GreenGolAnakilie, MIX020];
+const playlist = [SummerBreeze, GreenGolAnakilie, MIX020 ,Strike];
 let index = 0;
 
 
