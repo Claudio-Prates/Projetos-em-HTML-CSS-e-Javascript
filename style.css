@@ -40,9 +40,9 @@ margin: 3em 0 1em 0;
 
 }
 
-.buuton {
+.button {
   font-size: 1.5em;
-
+  cursor: pointer;
 }
 
 .button-navigate {
@@ -84,14 +84,36 @@ margin: 3em 0 1em 0;
   height: 3px;
   width: 100%;
   border-radius: 15px;
-  margin-bottom: 1em;
+
   
 }
 
 #current-progress {
+  --progress: 0%; /* cria uma variavel dentro do css (dois traços) */
   background-color: white;
   height: inherit;
-  width:50%;
+  width: var(--progress); /* estrutura que sinaliza que vamos usar uma variavel */
   border-radius: inherit;
   /* Herda as características do elemento pai */
+}
+
+#progress-container {
+  cursor: pointer;
+
+}
+
+.button-active {
+  color: rgb(0, 183, 107);
+
+}
+
+#time-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: smaller;
+  margin-top: 0.5em;
+
+
+
 }
